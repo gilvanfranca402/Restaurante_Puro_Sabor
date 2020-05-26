@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+body{
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #94bfa5 ;
+	text-align: center;
+	background: url("img/Ambiente-1.png");
+}
+header{
+	margin-top: 5px;
+	background-color: white;
+	margin-bottom: 15px;
+	border-radius: 8px;
+	height: auto;
+	opacity: 0.9;
+}
+.cabeca{
+	padding: 5px;
+	height: auto ;
+} 
+.cabeca img{
+	width: 110px;
+	float: left;
+	text-align:right;
+	max-width: 100%;
+	height: auto;
+}
+.cabeca ul{
+	margin-top: 25px;
+	margin-right: 25px;
+	float: right;
+	text-align: right;
+}
+.cabeca li{
+	font-size: 22px;
+	width: 100px;	
+	display:inline;
+	border-radius: 4px;
+}
+.cabeca a{
+	float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+	text-decoration: none;
+	
+}
+/* .current a:hover{
+	padding:5px;
+	background-color: #94bfa5;
+	text-decoration: none;
+	border-radius: 4px;
+	
+} */
+.cabeca a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.cabeca .icon {
+  display: none;
+}  
+#esconderlista{
+	display: none;
+	width: 60px;
+	height: auto;
+}
+main{
+	border-radius:8px;
+	background-color:white;
+	max-width: 100%;
+	height:auto;
+	padding-bottom: 15px;
+}
+
+.principal1{
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 5px;
+	max-width: 98%;
+	height:auto;
+	
+}
+.principal1 img{
+	max-width: 100%;
+	height: auto;
+	
+}
+.principal2 img{
+	padding: 5px;
+	margin: 5px;
+	max-width: 98%;
+	border-radius: 15px;
+	height:auto;
+}
+
+
+footer{
+	opacity:0.9;
+	padding: 10px;
+	text-align: center;
+	background-color: white;
+	border-radius:8px;
+	margin: 20px auto;
+	color:  #801214;
+	max-width: 100%;
+	height: auto;
+}
+.rodape{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+
+}
+.rodape h3{
+	margin: 5px;
+	padding: 5px;
+}
+.rodape img{
+	width: 45px;
+	height: auto;
+}
+.rodape .lgimg{
+	border-radius: 12px;
+	width:40px;
+}
+.rodape ul{
+	padding:1px;
+	margin:1px;
+	list-style-type: none;
+}
+.rodape li{
+	display: inline;
+}
+.qmmain{
+	max-width: 100%;
+	height: auto;
+	padding:15px;
+}
+
+.textquemsomos{
+		
+}
+.textquemsomos p{
+
+	font-size: 15.3px;
+	text-align: justify;
+	max-width: 100%;
+	height:auto;	
+}
+.textquemsomos h3{
+	color: #801214;
+	
+	
+}
+.imgquemsomos{
+	float: right;
+	text-align: justify;
+	
+}
+.imgquemsomos img{
+	padding:15px;
+	color:  #801214;
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.figcaption{
+	float: left;
+}
+
+.outline{
+	color:  #801214;
+	text-align: center;
+	padding-top: 30px;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 450px;
+    /* Para ver as bordas do formulário */
+    padding: 5em;
+   // border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1.5em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+	display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+.reservaform{
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+.reservaform h4{
+	font-size: 22px;
+}
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+	
+}
+
+.contato{
+	
+	color: #801214;
+}
+
+.credits{
+	
+	font-style: italic;
+	color: #808080;
+}
+
+
+@media screen and (max-width: 740px) {
+	#esconderlista{
+		display: block;
+		float: right;
+	}
+.cabeca img{
+	width: 100px;
+	float: left;
+	text-align:right;
+	max-width: 80%;
+	height: auto;
+}
+.cabeca a{
+	float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 14px;
+	text-decoration: none;
+	
+}
+.cabeca ul{
+	margin-top: 25px;
+	margin-right: 10px;
+	float: right;
+	text-align: right;
+}
+	.nav {
+		background-color: white;
+		padding-top:0.3em;
+		margin: 0px;
+	}	
+	.nav li {
+		background:#00b7f0;
+		display: none;
+		margin: 0;
+	}
+	.nav .current {
+		display: block;
+		text-align: right;
+		width:175px;
+		padding-inline-start: 5px;
+	}
+	.nav .current a:after {
+		content: "\2630";
+		position:absolute;
+		right:0.2em; 
+		top:0;
+		font-size:2em;
+		color: #fff;
+		text-align: right;
+	}
+	.nav a {
+		display: block;
+		padding: 0.5em;
+	}
+	.nav .current a {
+		width: 8em;
+		margin-left: 0.5em;
+	}
+	.current ul{
+		width: 200px;
+	}
+	.menucenter{
+		text-align:center;
+	}
+	.nav ul:hover li {
+		border-bottom:1px solid white;
+		text-align: center;
+		float: center;
+		display: block;
+		margin: 0;
+		width: 100px;
+	}
+	.current li{
+		background-color: white;
+		font-size: 12px;
+	}
+	.rodape img{
+		max-width: 30px;
+		height: auto;
+	}
+	.rodape .lcimg{
+		max-width:37px;
+		height:auto;
+		
+	}
+	.rodape h3{
+		max-width:100%;
+		height: auto;
+	}
+}	

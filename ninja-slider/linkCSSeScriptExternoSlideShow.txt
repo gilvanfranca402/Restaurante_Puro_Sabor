@@ -1,0 +1,3 @@
+		<!-- Script e link para o Nija Slider -->
+		<script type="text/javascript" src="ninja-slider/ninja-slider.js"></script>
+		<link href="ninja-slider/ninja-slider.css" rel="stylesheet" type="text/css"> 
